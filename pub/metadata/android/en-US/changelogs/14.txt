@@ -1,0 +1,5 @@
+Version 0.4.8
+
+• Added an About tab with the installed version and source repository link.
+• The connection button now uses plug and crossed-out plug icons.
+• Added rounded buttons, cards, tabs, and status surfaces.

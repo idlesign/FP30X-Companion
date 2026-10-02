@@ -1,0 +1,6 @@
+Version 0.5.0
+
+• Tone catalog family and search filters now persist for the session.
+• Presets were renamed to profiles and the base profile was localized.
+• Simplified the connection controls and plug icons.
+• Anchored the general settings and metronome summaries at the bottom.

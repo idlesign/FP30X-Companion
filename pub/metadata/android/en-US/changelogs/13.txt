@@ -1,0 +1,9 @@
+Initial Google Play release.
+
+• Browse and search all 321 FP-30X tones.
+• Create Single, Dual, and Split setups and save presets.
+• Adjust piano and metronome settings.
+• Connect over Bluetooth MIDI or USB MIDI.
+• Record MIDI and supported USB audio to WAV.
+
+• View the app version and source repository from About.

@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for FP-30X Companion">
+  <title>FP-30X Companion — Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #fffaf0;
+      --card: #ffffff;
+      --ink: #181c23;
+      --muted: #676f7c;
+      --accent: #e66a2c;
+      --line: #e5e7eb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font: 17px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    main {
+      width: min(880px, calc(100% - 32px));
+      margin: 32px auto;
+      padding: clamp(24px, 5vw, 56px);
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      box-shadow: 0 18px 60px rgb(24 28 35 / 8%);
+    }
+    h1 { margin: 0 0 8px; font-size: clamp(32px, 6vw, 48px); line-height: 1.1; }
+    h2 { margin-top: 40px; font-size: 24px; line-height: 1.25; }
+    p, li { max-width: 72ch; }
+    a { color: #b84610; }
+    .brand { color: var(--accent); font-weight: 750; letter-spacing: .02em; }
+    .date, .note { color: var(--muted); }
+    .language {
+      display: inline-flex;
+      gap: 8px;
+      margin: 20px 0 8px;
+      padding: 6px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+    }
+    .language a { padding: 4px 10px; text-decoration: none; }
+    hr { margin: 56px 0; border: 0; border-top: 1px solid var(--line); }
+    footer { margin-top: 48px; color: var(--muted); font-size: 14px; }
+  </style>
+</head>
+<body>
+<main>
+  <div class="brand">FP-30X COMPANION</div>
+  <h1>Privacy Policy</h1>
+  <p class="date">Effective date: October 1, 2026</p>
+  <nav class="language" aria-label="Language">
+    <a href="#english">English</a>
+    <a href="#russian" lang="ru">Русский</a>
+  </nav>
+
+  <section id="english">
+    <p>FP-30X Companion is an independent Android application for controlling and
+      recording a Roland FP-30X digital piano. This policy explains how the
+      application handles information.</p>
+
+    <h2>Data collection and sharing</h2>
+    <p>FP-30X Companion does not collect, transmit, sell, or share personal data.
+      The application has no internet permission, contains no advertising or
+      analytics SDK, and does not provide accounts or cloud synchronization.</p>
+
+    <h2>Data stored on the device</h2>
+    <p>The application stores favorites, presets, the last active preset, and app
+      settings in its private storage. Android may include this private data in the
+      user's encrypted system backup when device backup is enabled.</p>
+    <p>MIDI and WAV recordings are created only when the user starts recording.
+      They are saved to Downloads or to a folder the user selects through Android's
+      system folder picker. The application does not upload these files. The user
+      can delete recordings with any file manager. Uninstalling the application
+      removes its private data but does not remove recordings in shared storage.</p>
+
+    <h2>Permissions</h2>
+    <ul>
+      <li><strong>Nearby devices / Bluetooth:</strong> used only to discover and
+        connect to a compatible Bluetooth MIDI device. On Android 11 and earlier,
+        Android requires Location permission for Bluetooth discovery; the app does
+        not obtain or store the user's location.</li>
+      <li><strong>Record audio:</strong> used only when the user chooses to record
+        the FP-30X digital audio input over USB. Audio is written locally to a WAV
+        file and is never transmitted. The app checks that Android routed a
+        supported USB audio device rather than the phone microphone.</li>
+      <li><strong>Files and folders:</strong> used only to create recordings in
+        Downloads or in a folder selected through Android's system picker.</li>
+      <li><strong>Foreground service:</strong> keeps a user-initiated recording
+        active outside the foreground and displays an ongoing notification with a
+        Stop action.</li>
+    </ul>
+
+    <h2>Retention and deletion</h2>
+    <p>No data is kept on a developer-operated server. Users can clear private app
+      data in Android settings or uninstall the application. Recordings in shared
+      storage remain under the user's control and can be deleted with a file
+      manager.</p>
+
+    <h2>Children</h2>
+    <p>The application is a utility for digital-piano owners and is not directed to
+      children. It does not knowingly collect personal information from children or
+      from any other user.</p>
+
+    <h2>Changes and contact</h2>
+    <p>If application behavior changes, this policy will be updated before a
+      release that introduces new data handling. Questions can be sent to
+      <a href="mailto:idlelink@yandex.ru">idlelink@yandex.ru</a>.</p>
+  </section>
+
+  <hr>
+
+  <section id="russian" lang="ru">
+    <div class="brand">FP-30X COMPANION</div>
+    <h1>Политика конфиденциальности</h1>
+    <p class="date">Дата вступления в силу: 1 октября 2026 г.</p>
+    <p>FP-30X Companion — независимое Android-приложение для управления цифровым
+      пианино Roland FP-30X и записи исполнения. Ниже описано, как приложение
+      обрабатывает информацию.</p>
+
+    <h2>Сбор и передача данных</h2>
+    <p>FP-30X Companion не собирает, не передаёт, не продаёт и не предоставляет
+      третьим лицам персональные данные. У приложения нет разрешения на доступ к
+      интернету, рекламных и аналитических SDK, аккаунтов и облачной синхронизации.</p>
+
+    <h2>Данные на устройстве</h2>
+    <p>Избранные тембры, пресеты, последний активный пресет и настройки хранятся в
+      закрытом хранилище приложения. Android может включить эти данные в системную
+      зашифрованную резервную копию, если пользователь включил резервное копирование.</p>
+    <p>Файлы MIDI и WAV создаются только после запуска записи пользователем. Они
+      сохраняются в Downloads или в выбранную через системный диалог папку и никуда
+      не загружаются. Пользователь может удалить их файловым менеджером. Удаление
+      приложения очищает его закрытые данные, но не удаляет записи из общего
+      хранилища.</p>
+
+    <h2>Разрешения</h2>
+    <ul>
+      <li><strong>Устройства поблизости / Bluetooth:</strong> только для поиска и
+        подключения совместимого Bluetooth MIDI-устройства. В Android 11 и старше
+        для поиска Bluetooth требуется разрешение «Местоположение», однако
+        приложение не получает и не сохраняет местоположение пользователя.</li>
+      <li><strong>Запись звука:</strong> только для выбранной пользователем записи
+        цифрового аудиовхода FP-30X по USB. Звук сохраняется локально в WAV и не
+        передаётся. Приложение проверяет, что Android направил совместимое
+        USB-аудиоустройство, а не микрофон телефона.</li>
+      <li><strong>Файлы и папки:</strong> только для создания записей в Downloads
+        или в выбранной пользователем папке.</li>
+      <li><strong>Фоновая служба:</strong> продолжает начатую пользователем запись
+        вне активного окна и показывает постоянное уведомление с кнопкой остановки.</li>
+    </ul>
+
+    <h2>Срок хранения и удаление</h2>
+    <p>На сервере разработчика данные не хранятся. Закрытые данные можно удалить в
+      настройках Android или удалив приложение. Записями в общем хранилище управляет
+      пользователь; их можно удалить файловым менеджером.</p>
+
+    <h2>Дети</h2>
+    <p>Приложение предназначено для владельцев цифрового пианино и не ориентировано
+      на детей. Оно не собирает персональные данные детей или других пользователей.</p>
+
+    <h2>Изменения и контакты</h2>
+    <p>Если обработка данных изменится, политика будет обновлена до выпуска
+      соответствующей версии. Вопросы можно отправлять на
+      <a href="mailto:idlelink@yandex.ru">idlelink@yandex.ru</a>.</p>
+  </section>
+
+  <footer>Roland and FP-30X are trademarks of Roland Corporation. FP-30X Companion
+    is an independent application and is not affiliated with, endorsed by, or
+    sponsored by Roland Corporation.</footer>
+</main>
+</body>
+</html>

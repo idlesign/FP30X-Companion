@@ -1,0 +1,16 @@
+*.iml
+*.jks
+*.keystore
+*.p12
+*.pfx
+.gradle/
+.idea/
+local.properties
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+__pycache__/
+*.py[cod]
+.gitconfig
+gitconfig

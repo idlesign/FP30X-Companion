@@ -1,0 +1,34 @@
+FP-30X Companion is an independent, offline controller and recorder for the Roland FP-30X digital piano. No account, registration, ads, or internet connection is required.
+
+EXPLORE EVERY SOUND
+
+• Browse all 321 FP-30X tones in one searchable catalog
+• Filter by instrument family, from acoustic pianos to GM2 sounds
+• Mark favorite tones for quick access
+
+BUILD YOUR SETUP
+
+• Create Single, Dual, and Split configurations
+• Save, rename, duplicate, load, and delete profiles
+• Restore your last active profile when you reconnect
+• Adjust split point, part balance, octave shifts, transpose, key touch, ambience, and brilliance
+• Configure metronome tempo, beat, and volume
+
+CONNECT YOUR WAY
+
+Use Bluetooth MIDI for cable-free control, or connect the piano's USB Computer port to your Android device through USB-OTG. Tones and settings selected while disconnected are sent automatically after connection.
+
+CAPTURE YOUR PERFORMANCE
+
+• Record incoming notes and pedals as standard MIDI files
+• Record clean stereo piano audio as WAV when Android exposes the FP-30X USB audio input
+• Record MIDI and USB audio together with matching timestamps
+• Save to Downloads or a folder you choose
+
+PRIVATE BY DESIGN
+
+The app works fully offline and declares no internet permission. Profiles, favorites, and recordings stay on your device. Bluetooth and audio permissions are requested only when their related features are used.
+
+Compatibility depends on Android USB host and audio-routing support. Bluetooth MIDI does not carry piano audio. For USB audio, use the FP-30X USB Computer port and a data-capable cable.
+
+Roland and FP-30X are trademarks of Roland Corporation. FP-30X Companion is an independent application and is not affiliated with, endorsed by, or sponsored by Roland Corporation.
